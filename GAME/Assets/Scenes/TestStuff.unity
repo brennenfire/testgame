@@ -685,6 +685,7 @@ GameObject:
   - component: {fileID: 694346630}
   - component: {fileID: 694346633}
   - component: {fileID: 694346632}
+  - component: {fileID: 694346634}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Untagged
@@ -797,6 +798,20 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &694346634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694346627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dfc40c3654c00248a20dbbf3e8e6367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 77873675}
+  punchForce: 10
 --- !u!1 &716733640
 GameObject:
   m_ObjectHideFlags: 0
