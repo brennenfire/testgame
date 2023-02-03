@@ -28,7 +28,7 @@ public class Axeman : MonoBehaviour
     
     void Update()
     {
-        if(axe.AxeisRaised)
+        if(axe.AxeisRaised && Vector2.Distance(player.position, rigidbody.position) >= attackRange)
         {
             timerForNextAttack = -1;
             MoveTowardsPlayer();
